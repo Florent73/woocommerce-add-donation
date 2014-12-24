@@ -1,0 +1,110 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Woocommerce Add Donation\n"
+"POT-Creation-Date: 2014-12-24 10:04+0100\n"
+"PO-Revision-Date: 2014-12-24 10:04+0100\n"
+"Last-Translator: Florent Maillefaud <contact@restezconnectes.fr>\n"
+"Language-Team: Florent Maillefaud <contact@restezconnectes.fr>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.1\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: C:\\wamp\\www\\agapemedia.local.sites.fr\\www\\wp-content\\plugins\\woocommerce-add-donation\n"
+
+#: C:\wamp\www\agapemedia.local.sites.fr\www\wp-content\plugins\woocommerce-add-donation/woocommerce-add-donation.php:39
+msgid "Make a donation"
+msgstr ""
+
+#: C:\wamp\www\agapemedia.local.sites.fr\www\wp-content\plugins\woocommerce-add-donation/woocommerce-add-donation.php:58
+msgid "Add Donation Setting"
+msgstr ""
+
+#: C:\wamp\www\agapemedia.local.sites.fr\www\wp-content\plugins\woocommerce-add-donation/woocommerce-add-donation.php:73
+msgid "Options saved."
+msgstr ""
+
+#: C:\wamp\www\agapemedia.local.sites.fr\www\wp-content\plugins\woocommerce-add-donation/woocommerce-add-donation.php:80
+msgid "General"
+msgstr ""
+
+#: C:\wamp\www\agapemedia.local.sites.fr\www\wp-content\plugins\woocommerce-add-donation/woocommerce-add-donation.php:81
+msgid "CSS"
+msgstr ""
+
+#: C:\wamp\www\agapemedia.local.sites.fr\www\wp-content\plugins\woocommerce-add-donation/woocommerce-add-donation.php:82
+msgid "Setup"
+msgstr ""
+
+#: C:\wamp\www\agapemedia.local.sites.fr\www\wp-content\plugins\woocommerce-add-donation/woocommerce-add-donation.php:83
+msgid "About"
+msgstr ""
+
+#: C:\wamp\www\agapemedia.local.sites.fr\www\wp-content\plugins\woocommerce-add-donation/woocommerce-add-donation.php:110
+msgid "ID of donation product:"
+msgstr ""
+
+#: C:\wamp\www\agapemedia.local.sites.fr\www\wp-content\plugins\woocommerce-add-donation/woocommerce-add-donation.php:115
+msgid "Button text:"
+msgstr ""
+
+#: C:\wamp\www\agapemedia.local.sites.fr\www\wp-content\plugins\woocommerce-add-donation/woocommerce-add-donation.php:130
+msgid "Class CSS button:"
+msgstr ""
+
+#: C:\wamp\www\agapemedia.local.sites.fr\www\wp-content\plugins\woocommerce-add-donation/woocommerce-add-donation.php:136
+msgid "Background color:"
+msgstr ""
+
+#: C:\wamp\www\agapemedia.local.sites.fr\www\wp-content\plugins\woocommerce-add-donation/woocommerce-add-donation.php:151
+msgid "If you do not know how to add a unlisted product:"
+msgstr ""
+
+#: C:\wamp\www\agapemedia.local.sites.fr\www\wp-content\plugins\woocommerce-add-donation/woocommerce-add-donation.php:152
+msgid "1. Goto Products > Add Product"
+msgstr ""
+
+#: C:\wamp\www\agapemedia.local.sites.fr\www\wp-content\plugins\woocommerce-add-donation/woocommerce-add-donation.php:153
+msgid "2. Set the title <b>\"Donation\"</b>"
+msgstr ""
+
+#: C:\wamp\www\agapemedia.local.sites.fr\www\wp-content\plugins\woocommerce-add-donation/woocommerce-add-donation.php:154
+msgid ""
+"3. On the right hand side above the “Publish” button labelled <b>\"catalogue visibility\"</b>, choose <b>Hidden</b>"
+msgstr ""
+
+#: C:\wamp\www\agapemedia.local.sites.fr\www\wp-content\plugins\woocommerce-add-donation/woocommerce-add-donation.php:155
+msgid ""
+"4. In the Product data section set the <b>Product SKU</b> to something unique e.g. <b>\"checkout-donation\"</b>, under "
+"shipping set the <b>shipping class</b> to <b>\"no shipping\"</b>, if you have <b>taxes enabled</b> under taxes"
+msgstr ""
+
+#: C:\wamp\www\agapemedia.local.sites.fr\www\wp-content\plugins\woocommerce-add-donation/woocommerce-add-donation.php:156
+msgid "5. select \"none\" and just in case set the tax class to <b>zero-rate</b>."
+msgstr ""
+
+#: C:\wamp\www\agapemedia.local.sites.fr\www\wp-content\plugins\woocommerce-add-donation/woocommerce-add-donation.php:157
+msgid ""
+"6. Finally under the product data section, in the inventory tab, make sure sold individually is checked, as this will "
+"mean that only one donation is allowed in the shopping basket at once."
+msgstr ""
+
+#: C:\wamp\www\agapemedia.local.sites.fr\www\wp-content\plugins\woocommerce-add-donation/woocommerce-add-donation.php:172
+msgid ""
+"This plugin has been developed for you for free by <a href=\"http://www.restezconnectes.fr\" target=\"_blank\">Florent "
+"Maillefaud</a> from the source code of James Collings (<a href=\"http://jamescollings.co.uk/\" target=\"_blank"
+"\">http://jamescollings.co.uk</a>). It is royalty free, you can take it, modify it, distribute it as you see fit. <br /"
+"> <br />It would be desirable that I can get feedback on your potential changes to improve this plugin for all."
+msgstr ""
+
+#: C:\wamp\www\agapemedia.local.sites.fr\www\wp-content\plugins\woocommerce-add-donation/woocommerce-add-donation.php:177
+msgid "If you want Donate (French Paypal) for my current and future developments:"
+msgstr ""
+
+#: C:\wamp\www\agapemedia.local.sites.fr\www\wp-content\plugins\woocommerce-add-donation/woocommerce-add-donation.php:182
+msgid "Make me a gift:"
+msgstr ""
