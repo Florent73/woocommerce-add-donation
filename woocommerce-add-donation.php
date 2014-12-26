@@ -47,15 +47,17 @@ class woo_add_don {
         update_option('woocommerce-add-donation_settings', $wooaddon_AdminOptions);
         
         /* Charge les scripts nécessaire*/
-        wp_register_script('wooaddon-admin-settings', WP_PLUGIN_URL.'/woocommerce-add-donation/woocommerce-add-donation-scripts.js');
-        wp_enqueue_script('wooaddon-admin-settings');	
-        wp_enqueue_style( 'wp-color-picker' );
-        wp_enqueue_script( 'my-script-handle', plugins_url('woocommerce-add-donation-color.js', __FILE__ ), array( 'wp-color-picker' ), false, true );
+        if (isset($_GET['page']) && $_GET['page'] == 'woocommerce-add-donation') {
+            wp_register_script('wooaddon-admin-settings', WP_PLUGIN_URL.'/woocommerce-add-donation/woocommerce-add-donation-scripts.js');
+            wp_enqueue_script('wooaddon-admin-settings');	
+            wp_enqueue_style( 'wp-color-picker' );
+            wp_enqueue_script( 'my-script-handle', plugins_url('woocommerce-add-donation-color.js', __FILE__ ), array( 'wp-color-picker' ), false, true );
+        }
         
 	}
 
 	function my_admin_menu() {
-        add_submenu_page( 'woocommerce', __('Add Donation Setting', 'wooadddonation'), __('Add Donation Setting','wooadddonation'), 'manage_options', 'woocommerce-donation', array(
+        add_submenu_page( 'woocommerce', __('Add Donation Setting', 'wooadddonation'), __('Add Donation Setting','wooadddonation'), 'manage_options', 'woocommerce-add-donation', array(
 				&$this,
 				'homepage'
 			));
@@ -71,7 +73,7 @@ class woo_add_don {
             update_option('woocommerce-add-donation_settings', $_POST["woocommerce-add-donation_settings"]);
             $options_saved = true;
             echo '<div id="message" class="updated fade"><p><strong>'.__('Options saved.', 'wooadddonation').'</strong></p></div>';
-        }	
+    }
         ?>
 		
             <!-- TABS OPTIONS -->
