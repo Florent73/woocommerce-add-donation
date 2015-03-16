@@ -1,0 +1,1 @@
+Ajouter un champs pour que vos clients de votre boutique WooCommerce puisque effectuer un don en plus de leur commande.
